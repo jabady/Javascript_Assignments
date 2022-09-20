@@ -1,3 +1,4 @@
+(Please display as source blob for better formatting)
 Name the three ways to declare a variable
     Three ways of creating a variable are through declaring the statements called let, const, and var.
 Which of the three variable declarations should you avoid and why?
