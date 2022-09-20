@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <p id="p5"></p>
+    <p id="p6"></p>
+    <script>
+        /// Adding 2 numbers together
+        let x = 100 + 50;
+        document.getElementById("p1").innerHTML = x;
+        /// Adding a sequence of 6 different numbers together
+        let y = 1 + 2 + 3 + 4 + 5 + 6;
+        document.getElementById("p2").innerHTML = y;
+        /// Print the solution to the following equation
+        let z = (4 + 6 + 9) / 77;
+        z = z.toFixed(5); ///rounding to match approximation
+        document.getElementById("p3").innerHTML = z;
+        /// We're using variables now!
+        let a = 10;
+        let b = 7 * a;
+        document.getElementById("p4").innerHTML = b;
+        /// Playing with const
+        const max = 57;
+        let actual = max - 13;
+        let percentage = actual / max;
+        percentage = percentage.toFixed(4);
+        document.getElementById("p5").innerHTML = percentage;
+    </script>
+</body>
+</html>
